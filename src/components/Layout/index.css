@@ -1,0 +1,47 @@
+.layout {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  /* background: var(--ant-primary-color); */
+  overflow: hidden;
+}
+
+.layout-wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
+  margin: auto;
+  display: flex;
+  padding: 36px;
+  flex-direction: row;
+  box-sizing: border-box;
+  /* background: #08122b; */
+  background-image: linear-gradient(to right, rgba(124, 85, 2, 0.4) 5%, rgba(105, 86, 5, 0.15) 70%)
+}
+
+.layout-bg {
+  position: absolute;
+  display: block;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  margin: auto;
+  width: 100%;
+  /* margin-right:-5%; */
+}
+
+.layout-bg-color {
+  position: absolute;
+  display: block;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  margin: auto;
+  background-color: #cdc2a6
+}

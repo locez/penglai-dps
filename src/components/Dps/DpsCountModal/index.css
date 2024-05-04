@@ -1,0 +1,83 @@
+.dps-count-modal {
+  max-height: calc(100vh - 24px);
+}
+
+.dps-count-modal .ant-modal-body {
+  padding: 12px 24px 24px;
+}
+
+.dps-line-header {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.dps-line-wrap {
+  position: relative;
+  height: 30px;
+  border-bottom: 1px solid #fdfdfd;
+}
+
+.dps-line {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  line-height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200;
+  transition: .2s;
+  padding: 0 8px;
+}
+
+.dps-line:hover {
+  background-color: var(--ant-primary-color);
+  color: #fff;
+}
+
+.dps-line-bg {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 26px;
+  background-color: var(--ant-primary-color);
+  opacity: 0.3;
+  z-index: 100
+}
+
+.dps-total {
+  color: var(--ant-primary-color);
+}
+
+.dps-count {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dps-count-1 {
+  width: 20%;
+}
+
+.dps-count-2 {
+  width: 30%;
+  text-align: right;
+}
+
+.dps-count-3 {
+  width: 25%;
+  text-align: right;
+}
+
+.dps-count-4 {
+  width: 25%;
+  text-align: right;
+}
+
+.dps-number {
+  border: 1px solid #999;
+  margin-bottom: 24px;
+}
