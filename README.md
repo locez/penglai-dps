@@ -1,6 +1,6 @@
 ## 说明
 
-fork from [wanling-dps](https://github.com/LynTss/wanling-dps), thanks for @LynTss
+fork from [wanling-dps](https://github.com/LynTss/wanling-dps), thanks for [@LynTss](https://github.com/LynTss)
 
 该仓库仅用作研究，期待有一日上游重新整合代码
 
