@@ -2,9 +2,9 @@
 // export const DOMAIN_COLOR = '#a69565'
 
 // 自己瞎搞的颜色
-export const DOMAIN_COLOR = '#dca53e'
+export const DOMAIN_COLOR = "#9ec7e3";
 
-export const 当前门派缓存前缀 = '万灵'
+export const 当前门派缓存前缀 = "万灵";
 
 // 用于保存在浏览器的各属性键值
 export const 缓存映射 = {
